@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP2D3D", "OOP2D3D\OOP2D3D.csproj", "{EE159FA4-9CE0-488F-AECE-CAF1D5D1AEBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE159FA4-9CE0-488F-AECE-CAF1D5D1AEBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE159FA4-9CE0-488F-AECE-CAF1D5D1AEBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE159FA4-9CE0-488F-AECE-CAF1D5D1AEBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE159FA4-9CE0-488F-AECE-CAF1D5D1AEBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C2AB241-9112-41DA-995C-89002A049E33}
+	EndGlobalSection
+EndGlobal

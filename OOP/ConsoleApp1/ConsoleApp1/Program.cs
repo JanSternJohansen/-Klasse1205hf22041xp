@@ -45,8 +45,9 @@ namespace ConsoleApp1
             Console.Beep(tones[4], 600);
             Console.Beep(tones[0], 700);
             Console.Beep(tones[0], 1000);
-           
 
+            int heltal = 7;
+            double decTal = heltal;
 
 
 
