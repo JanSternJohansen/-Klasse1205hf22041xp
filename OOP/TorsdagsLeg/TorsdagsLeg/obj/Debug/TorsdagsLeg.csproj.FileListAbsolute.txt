@@ -1,0 +1,8 @@
+D:\Data\Klasser\2022.2.kvt.1205hf22041xp\-Klasse1205hf22041xp\OOP\TorsdagsLeg\TorsdagsLeg\bin\Debug\TorsdagsLeg.exe.config
+D:\Data\Klasser\2022.2.kvt.1205hf22041xp\-Klasse1205hf22041xp\OOP\TorsdagsLeg\TorsdagsLeg\bin\Debug\TorsdagsLeg.exe
+D:\Data\Klasser\2022.2.kvt.1205hf22041xp\-Klasse1205hf22041xp\OOP\TorsdagsLeg\TorsdagsLeg\bin\Debug\TorsdagsLeg.pdb
+D:\Data\Klasser\2022.2.kvt.1205hf22041xp\-Klasse1205hf22041xp\OOP\TorsdagsLeg\TorsdagsLeg\obj\Debug\TorsdagsLeg.csproj.AssemblyReference.cache
+D:\Data\Klasser\2022.2.kvt.1205hf22041xp\-Klasse1205hf22041xp\OOP\TorsdagsLeg\TorsdagsLeg\obj\Debug\TorsdagsLeg.csproj.SuggestedBindingRedirects.cache
+D:\Data\Klasser\2022.2.kvt.1205hf22041xp\-Klasse1205hf22041xp\OOP\TorsdagsLeg\TorsdagsLeg\obj\Debug\TorsdagsLeg.csproj.CoreCompileInputs.cache
+D:\Data\Klasser\2022.2.kvt.1205hf22041xp\-Klasse1205hf22041xp\OOP\TorsdagsLeg\TorsdagsLeg\obj\Debug\TorsdagsLeg.exe
+D:\Data\Klasser\2022.2.kvt.1205hf22041xp\-Klasse1205hf22041xp\OOP\TorsdagsLeg\TorsdagsLeg\obj\Debug\TorsdagsLeg.pdb

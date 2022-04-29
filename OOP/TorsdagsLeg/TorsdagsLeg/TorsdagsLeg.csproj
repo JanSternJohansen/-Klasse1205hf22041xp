@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EE159FA4-9CE0-488F-AECE-CAF1D5D1AEBA}</ProjectGuid>
+    <ProjectGuid>{D08EA332-61D6-47BF-95E1-A24D2C6A1E7B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>OOP2D3D</RootNamespace>
-    <AssemblyName>OOP2D3D</AssemblyName>
+    <RootNamespace>TorsdagsLeg</RootNamespace>
+    <AssemblyName>TorsdagsLeg</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Area.cs" />
-    <Compile Include="Cubic.cs" />
-    <Compile Include="MyColorEnum.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
