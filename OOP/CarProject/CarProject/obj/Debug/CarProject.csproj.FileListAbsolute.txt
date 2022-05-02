@@ -1,0 +1,8 @@
+D:\Data\Klasser\2022.2.kvt.1205hf22041xp\-Klasse1205hf22041xp\OOP\CarProject\CarProject\bin\Debug\CarProject.exe.config
+D:\Data\Klasser\2022.2.kvt.1205hf22041xp\-Klasse1205hf22041xp\OOP\CarProject\CarProject\bin\Debug\CarProject.exe
+D:\Data\Klasser\2022.2.kvt.1205hf22041xp\-Klasse1205hf22041xp\OOP\CarProject\CarProject\bin\Debug\CarProject.pdb
+D:\Data\Klasser\2022.2.kvt.1205hf22041xp\-Klasse1205hf22041xp\OOP\CarProject\CarProject\obj\Debug\CarProject.csproj.AssemblyReference.cache
+D:\Data\Klasser\2022.2.kvt.1205hf22041xp\-Klasse1205hf22041xp\OOP\CarProject\CarProject\obj\Debug\CarProject.csproj.SuggestedBindingRedirects.cache
+D:\Data\Klasser\2022.2.kvt.1205hf22041xp\-Klasse1205hf22041xp\OOP\CarProject\CarProject\obj\Debug\CarProject.csproj.CoreCompileInputs.cache
+D:\Data\Klasser\2022.2.kvt.1205hf22041xp\-Klasse1205hf22041xp\OOP\CarProject\CarProject\obj\Debug\CarProject.exe
+D:\Data\Klasser\2022.2.kvt.1205hf22041xp\-Klasse1205hf22041xp\OOP\CarProject\CarProject\obj\Debug\CarProject.pdb

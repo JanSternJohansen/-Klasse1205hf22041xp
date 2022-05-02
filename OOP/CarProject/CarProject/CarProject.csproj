@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F6586B08-4E59-42ED-B05B-72DA7492DBD0}</ProjectGuid>
+    <ProjectGuid>{EF788D31-487E-47C9-9D7E-2CFA867DD4DF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>TestingsJan</RootNamespace>
-    <AssemblyName>TestingsJan</AssemblyName>
+    <RootNamespace>CarProject</RootNamespace>
+    <AssemblyName>CarProject</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dog.cs" />
-    <Compile Include="MyCompare.cs" />
+    <Compile Include="Car.cs" />
+    <Compile Include="MyComparer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

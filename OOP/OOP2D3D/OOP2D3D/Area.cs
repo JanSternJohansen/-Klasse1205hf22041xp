@@ -13,7 +13,7 @@ namespace OOP2D3D
         private MyColorEnum _color;
         
         // Constructors
-        public Area() { }
+        public Area() { Console.WriteLine("Areas default constructor"); }
 
         public Area(MyColorEnum col,string name, int len, int wid)
         {

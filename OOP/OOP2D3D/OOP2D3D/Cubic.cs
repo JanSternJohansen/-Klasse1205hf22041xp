@@ -16,12 +16,13 @@ namespace OOP2D3D
         }
 
         public Cubic() { }
-        public Cubic(MyColorEnum col, String name, int length, int width, int height)
+        public Cubic(MyColorEnum col, String name, int length, int width, int height) 
+            : base(col, name, length, width) // Areas constructor
         {
-            this.Color = col;
-            this.setName(name);
-            this.Length = length;
-            this.Width = width;
+            //this.Color = col;
+            //this.setName(name);
+            //this.Length = length;
+            //this.Width = width;
             this.Height = height;
         }
         public override string ToString()
@@ -30,8 +31,8 @@ namespace OOP2D3D
         }
         public override int GetSize()
         {
-            //return base.GetSize() * Height;
-            return Length * Width * Height;
+            return base.GetSize() * Height;
+            //return Length * Width * Height;
         }
     }
 }

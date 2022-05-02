@@ -1,0 +1,8 @@
+D:\Data\Klasser\2022.2.kvt.1205hf22041xp\-Klasse1205hf22041xp\OOP\TestingsJan\TestingsJan\bin\Debug\TestingsJan.exe.config
+D:\Data\Klasser\2022.2.kvt.1205hf22041xp\-Klasse1205hf22041xp\OOP\TestingsJan\TestingsJan\bin\Debug\TestingsJan.exe
+D:\Data\Klasser\2022.2.kvt.1205hf22041xp\-Klasse1205hf22041xp\OOP\TestingsJan\TestingsJan\bin\Debug\TestingsJan.pdb
+D:\Data\Klasser\2022.2.kvt.1205hf22041xp\-Klasse1205hf22041xp\OOP\TestingsJan\TestingsJan\obj\Debug\TestingsJan.csproj.AssemblyReference.cache
+D:\Data\Klasser\2022.2.kvt.1205hf22041xp\-Klasse1205hf22041xp\OOP\TestingsJan\TestingsJan\obj\Debug\TestingsJan.csproj.SuggestedBindingRedirects.cache
+D:\Data\Klasser\2022.2.kvt.1205hf22041xp\-Klasse1205hf22041xp\OOP\TestingsJan\TestingsJan\obj\Debug\TestingsJan.csproj.CoreCompileInputs.cache
+D:\Data\Klasser\2022.2.kvt.1205hf22041xp\-Klasse1205hf22041xp\OOP\TestingsJan\TestingsJan\obj\Debug\TestingsJan.exe
+D:\Data\Klasser\2022.2.kvt.1205hf22041xp\-Klasse1205hf22041xp\OOP\TestingsJan\TestingsJan\obj\Debug\TestingsJan.pdb
