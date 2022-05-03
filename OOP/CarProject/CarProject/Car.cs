@@ -64,7 +64,7 @@ namespace CarProject
 
         public override string ToString()
         {
-            return String.Format("{0, -8}  {1}  {2}  {3, 4}  {4}  {5}  {6}", Brand, Model, Color, TopSpeed, Weight, HorseP, GetAcceleration());
+            return String.Format("{0, -8}  {1, -8}  {2, -8}  {3, 4}  {4,4}  {5,-4}  {6,4}", Brand, Model, Color, TopSpeed, Weight, HorseP, GetAcceleration());
         }
 
     }

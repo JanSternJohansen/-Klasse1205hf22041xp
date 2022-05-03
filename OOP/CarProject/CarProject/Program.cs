@@ -80,7 +80,7 @@ namespace CarProject
             //}
 
 
-            CompareAll cmpBrand = new CompareAll("Brand"); // evt. enum
+            CompareAll cmpBrand = new CompareAll(CarSortEnum.Brand); // evt. enum
             Array.Sort(cars, cmpBrand);
             Console.WriteLine("\nSorted Cars on Brand:");
             foreach (Car c in cars)
@@ -88,7 +88,7 @@ namespace CarProject
                 Console.WriteLine(c);
             }
 
-            CompareAll cmpTopSpeed = new CompareAll("TopSpeed");
+            CompareAll cmpTopSpeed = new CompareAll(CarSortEnum.TopSpeed);
             Array.Sort(cars, cmpTopSpeed);
             Console.WriteLine("\nSorted Cars on TopSpeed:");
             foreach (Car c in cars)
@@ -96,17 +96,14 @@ namespace CarProject
                 Console.WriteLine(c);
             }
 
-            CompareAll cmpAccelerate = new CompareAll("Accelerate");
+            CompareAll cmpAccelerate = new CompareAll(CarSortEnum.Accelerate);
             Array.Sort(cars, cmpAccelerate);
             Console.WriteLine("\nSorted Cars on Accelerate:");
             foreach (Car c in cars)
             {
                 Console.WriteLine(c);
             }
-
-
             Console.ReadLine();
-
         }
     }
 }
