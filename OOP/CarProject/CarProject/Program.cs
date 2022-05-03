@@ -50,15 +50,45 @@ namespace CarProject
                 Console.WriteLine(c);
             }
 
-            MyCompare mc = new MyCompare();
-            int result = mc.Compare(cars[2], cars[3]);
+            //Array.Sort(cars); // Forventer at Car har implementeret IComparable, som har metoden CompareTo()
 
-            Array.Sort(cars, new MyCompare());
-            Console.WriteLine("\nSorted Cars:");
+
+            MyCompareBrand compBrand = new MyCompareBrand();
+            int result = compBrand.Compare(cars[2], cars[3]);
+
+            Array.Sort(cars, compBrand);
+            Console.WriteLine("\nSorted Cars on Brand:");
             foreach (Car c in cars)
             {
                 Console.WriteLine(c);
             }
+
+            MyCompareAcceleration compAcc = new MyCompareAcceleration();
+            Array.Sort(cars, compAcc);
+            Console.WriteLine("\nSorted Cars on Acceleration:");
+            foreach (Car c in cars)
+            {
+                Console.WriteLine(c);
+            }
+
+            MyCompareTopSpeed compTopSpeed = new MyCompareTopSpeed();
+            Array.Sort(cars, compTopSpeed);
+            Console.WriteLine("\nSorted Cars on TopSpeed:");
+            foreach (Car c in cars)
+            {
+                Console.WriteLine(c);
+            }
+
+
+            //MyComparer mc = new MyComparer("C");
+            //Array.Sort(cars, mc);
+
+            //MyComparer mc = new MyComparer("T");
+            //Array.Sort(cars, mc);
+
+            //MyComparer mc = new MyComparer("A");
+            //Array.Sort(cars, mc);
+
 
 
             Console.ReadLine();
