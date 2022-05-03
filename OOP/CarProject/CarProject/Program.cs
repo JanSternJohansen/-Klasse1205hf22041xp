@@ -53,42 +53,56 @@ namespace CarProject
             //Array.Sort(cars); // Forventer at Car har implementeret IComparable, som har metoden CompareTo()
 
 
-            MyCompareBrand compBrand = new MyCompareBrand();
-            int result = compBrand.Compare(cars[2], cars[3]);
+            //MyCompareBrand compBrand = new MyCompareBrand();
+            //int result = compBrand.Compare(cars[2], cars[3]);
 
-            Array.Sort(cars, compBrand);
+            //Array.Sort(cars, compBrand);
+            //Console.WriteLine("\nSorted Cars on Brand:");
+            //foreach (Car c in cars)
+            //{
+            //    Console.WriteLine(c);
+            //}
+
+            //MyCompareAcceleration compAcc = new MyCompareAcceleration();
+            //Array.Sort(cars, compAcc);
+            //Console.WriteLine("\nSorted Cars on Acceleration:");
+            //foreach (Car c in cars)
+            //{
+            //    Console.WriteLine(c);
+            //}
+
+            //MyCompareTopSpeed compTopSpeed = new MyCompareTopSpeed();
+            //Array.Sort(cars, compTopSpeed);
+            //Console.WriteLine("\nSorted Cars on TopSpeed:");
+            //foreach (Car c in cars)
+            //{
+            //    Console.WriteLine(c);
+            //}
+
+
+            CompareAll cmpBrand = new CompareAll("Brand"); // evt. enum
+            Array.Sort(cars, cmpBrand);
             Console.WriteLine("\nSorted Cars on Brand:");
             foreach (Car c in cars)
             {
                 Console.WriteLine(c);
             }
 
-            MyCompareAcceleration compAcc = new MyCompareAcceleration();
-            Array.Sort(cars, compAcc);
-            Console.WriteLine("\nSorted Cars on Acceleration:");
-            foreach (Car c in cars)
-            {
-                Console.WriteLine(c);
-            }
-
-            MyCompareTopSpeed compTopSpeed = new MyCompareTopSpeed();
-            Array.Sort(cars, compTopSpeed);
+            CompareAll cmpTopSpeed = new CompareAll("TopSpeed");
+            Array.Sort(cars, cmpTopSpeed);
             Console.WriteLine("\nSorted Cars on TopSpeed:");
             foreach (Car c in cars)
             {
                 Console.WriteLine(c);
             }
 
-
-            //MyComparer mc = new MyComparer("C");
-            //Array.Sort(cars, mc);
-
-            //MyComparer mc = new MyComparer("T");
-            //Array.Sort(cars, mc);
-
-            //MyComparer mc = new MyComparer("A");
-            //Array.Sort(cars, mc);
-
+            CompareAll cmpAccelerate = new CompareAll("Accelerate");
+            Array.Sort(cars, cmpAccelerate);
+            Console.WriteLine("\nSorted Cars on Accelerate:");
+            foreach (Car c in cars)
+            {
+                Console.WriteLine(c);
+            }
 
 
             Console.ReadLine();
