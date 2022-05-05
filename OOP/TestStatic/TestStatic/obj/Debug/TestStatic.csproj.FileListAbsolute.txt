@@ -1,0 +1,8 @@
+D:\Data\Klasser\2022.2.kvt.1205hf22041xp\-Klasse1205hf22041xp\OOP\TestStatic\TestStatic\bin\Debug\TestStatic.exe.config
+D:\Data\Klasser\2022.2.kvt.1205hf22041xp\-Klasse1205hf22041xp\OOP\TestStatic\TestStatic\bin\Debug\TestStatic.exe
+D:\Data\Klasser\2022.2.kvt.1205hf22041xp\-Klasse1205hf22041xp\OOP\TestStatic\TestStatic\bin\Debug\TestStatic.pdb
+D:\Data\Klasser\2022.2.kvt.1205hf22041xp\-Klasse1205hf22041xp\OOP\TestStatic\TestStatic\obj\Debug\TestStatic.csproj.AssemblyReference.cache
+D:\Data\Klasser\2022.2.kvt.1205hf22041xp\-Klasse1205hf22041xp\OOP\TestStatic\TestStatic\obj\Debug\TestStatic.csproj.SuggestedBindingRedirects.cache
+D:\Data\Klasser\2022.2.kvt.1205hf22041xp\-Klasse1205hf22041xp\OOP\TestStatic\TestStatic\obj\Debug\TestStatic.csproj.CoreCompileInputs.cache
+D:\Data\Klasser\2022.2.kvt.1205hf22041xp\-Klasse1205hf22041xp\OOP\TestStatic\TestStatic\obj\Debug\TestStatic.exe
+D:\Data\Klasser\2022.2.kvt.1205hf22041xp\-Klasse1205hf22041xp\OOP\TestStatic\TestStatic\obj\Debug\TestStatic.pdb
