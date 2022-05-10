@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -29,7 +30,8 @@ namespace TestStatic
             Console.WriteLine(c2);
             Console.WriteLine(c3);
             Console.WriteLine(c4);
-            Console.WriteLine(c5);
+            Console.WriteLine(c5);            
+
 
             Console.ReadLine();
 
