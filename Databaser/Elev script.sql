@@ -26,7 +26,8 @@ create table Student
    SparetimeJob varchar(20),
    ShoeNumber decimal(5,2),
    Salary float,
-   TeamId int constraint Student_TeamId_FK foreign key references Team(Id)
+   TeamId int constraint Student_TeamId_FK 
+		      foreign key references Team(Id)
 )
 
 insert into Team values('Data')
@@ -34,7 +35,9 @@ insert into Team values('Specialpatrulje')
 insert into Team values('TEC''s humbuggere')
 insert into Team values('Ånsvage elever')
 
-insert into Student values('Elias','Kouly','Jacobsvej 7', 0, 'NO Shit', 43.5, 1234.50, 10)
+insert into Student 
+   values('Elias','Kouly','Jacobsvej 7', 0, 
+           'NO Shit', 43.5, 1234.50, 10)
 insert into Student values('Oliver','Laursen','Juelsmindevej 7', 0, 'Tiger slave', 40.0, 1900.00, 20)
 insert into Student values('Carl-Emil','Olsen','Tunøvej 59', 0, 'Hardcore Gamer', 48.5, 8000, 30)
 insert into Student values('Oskar','Urban','TætvedØsterbrovej 7', 1, 'CEO', 44.5, 3465.50, 40)
@@ -58,6 +61,8 @@ select * from Student
 
 select * from Team
 --select * from Student where TeamId = 30
--
+
+select * from Student, Team 
+where Team.Id = Student.TeamId
 
 
