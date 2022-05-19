@@ -1,0 +1,89 @@
+ .grid1{
+     grid-area: grid11;
+ }
+
+ .grid2{
+    grid-area: grid22;
+}
+
+.grid3{
+    grid-area: grid33;
+}
+
+.grid4{
+    grid-area: grid44;
+}
+ 
+ .wrapper {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 50% 50%;
+      grid-template-areas:
+      "grid11 grid22 " 
+       "grid33 grid44";
+      background-color: transparent;
+      color: #444;
+    }
+
+.grid1{
+    background-color: #444;
+    color: #fff;
+    border-radius: 15px;
+    padding:70px;
+    font-size: 150%;
+
+}
+
+.grid2{
+    background-color: #444;
+    color: #fff;
+    border-radius: 15px;
+    padding:70px;
+    font-size: 150%;
+}
+
+.grid3{
+    background-color: #444;
+    color: #fff;
+    border-radius: 15px;
+    padding:70px;
+    font-size: 150%;
+    
+}
+
+.grid4{
+    background-color: #444;
+    color: #fff;
+    border-radius: 15px;
+    padding:70px;
+    font-size: 150%;
+    
+}
+
+.grid5{
+    background-color: #444;
+    color: #fff;
+    border-radius: 15px;
+    padding:70px;
+    font-size: 150%;
+    
+}
+
+.Texting{
+    text-decoration: underline;
+    text-align: center;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+body{
+    background-image :url('https://bnetcmsus-a.akamaihd.net/cms/blog_header/5i/5IHI1B6YBY6S1459290911294.png');
+}

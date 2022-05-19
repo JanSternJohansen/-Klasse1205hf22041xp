@@ -1,0 +1,68 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    font-family:Arial;
+    background: turquoise;
+}
+
+#bodycontainer {
+    width: inherit;
+    height: inherit;
+    margin: 0%;
+    padding: 0%;
+    background-color: blueviolet;
+}
+
+#topcontainer {
+    width: 88%;
+    height: 12%;
+    margin: 3%;
+    padding: 3%;
+    top:3%;
+    background-color:#aaccff;
+}
+
+#leftcontainer {
+    width: 23%;
+    height: 48%;
+    margin-left: 3%;
+    margin-right:3%;
+    margin-bottom:3%;
+    padding: 3%;
+    background-color: #66aaff;
+    float:left;
+}
+
+#rightcontainer {
+    width: 56%;
+    height: 48%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    padding: 3%;
+    background-color: #88ddff;
+    float:left;
+}
+#bottomcontainer {
+    width: 88%;
+    height: 12%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    padding: 3%;
+    background-color: #aa88ff;
+    clear: left;
+}
+
+th, td{
+    padding:5px;
+}
+
+table{
+    background-color:white;
+}
+
+.divTestings{
+    background-color:aqua;
+}

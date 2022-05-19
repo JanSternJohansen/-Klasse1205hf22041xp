@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{background-color: #FF00FF;
+            font-size: x-large;
+            margin-top:10px;
+        }
+        .fifty-percent{
+            width:50%
+        }
+        .one-hundred-pixels{
+            width:200px;
+        }
+        .fifty-vw{
+            width:50vw;
+        }
+        .fifty-vw-vh{
+            width:50vw;
+            height:50vh;
+        }
+        .parent{
+            width:350px;
+            background-color:aqua;
+            border:1px;
+            border-color: black;
+            border-style:double
+        }
+    </style>
+</head>
+<body style="background-color:aqua;">
+    <div class="fifty-percent">50% af parent</div>
+    <div class="one-hundred-pixels">100px</div>
+    <div class="parent">
+        <div class="fifty-percent">50% af parent</div>
+    <div class="one-hundred-pixels">100px</div>
+    </div>
+
+    <br />
+    <div class="fifty-vw">50vw - - 50% af viewport</div>
+    
+    <div class="parent">
+        <div class="fifty-vw">50vw - 50% af viewport</div>
+    </div>
+
+    <div class="fifty-vw-vh">50vw og 50vh - 50% af viewport</div>
+</body>
+</html>
